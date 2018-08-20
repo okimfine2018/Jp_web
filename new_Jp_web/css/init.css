@@ -1,0 +1,16 @@
+*{margin: 0px; padding: 0px;}
+ul,li{list-style: none; font-size: 13px;}
+a:visited,a:active,a:link{text-decoration: none; color: #00FF00;}
+a:hover{color: orange;}
+body{background: #E4606D;}
+.top{height: 25px; background: blue;text-align: center;color: white;}
+.main{margin:0px auto;width: 1020px;background:white;text-align: center;}
+.main_left{border: 1px solid red; width: 182px;float: left;}
+.main_left_product_list ul li{border-bottom:1px dashed royalblue ;}
+.test{border: 1px solid red;width:830px;float: left;}
+.hot_shop img{width: 400px;height: 400px;border: 1px solid blue}
+.img800192 img{width: 800px;height: 192px;border: 1px solid blue}
+.img800100 img{width: 800px;height: 100px;border: 1px solid blue}
+.img260135 img{width: 260px;height: 135px;border: 1px solid blue}
+.footer{width: 100%;height: 200px;background: yellowgreen;}
+.clear{clear: both;}
