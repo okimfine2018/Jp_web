@@ -107,13 +107,13 @@ function startMove(obj,att,add)
 		  }
 		  tab();
 	  }
-	  var timer = setInterval(oNext.onclick,3000) //滚动间隔时间设置
+	  var timer = setInterval(oNext.onclick,2500) //滚动间隔时间设置
 	  oDiv.onmouseover = function()
 	  {
 		  clearInterval(timer)
 	  }
 	   oDiv.onmouseout = function()
 	  {
-		  timer = setInterval(oNext.onclick,3000) //滚动间隔时间设置
+		  timer = setInterval(oNext.onclick,2500) //滚动间隔时间设置
 	  }
   }

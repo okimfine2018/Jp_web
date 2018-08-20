@@ -12,5 +12,5 @@ body{background: #E4606D;}
 .img800192 img{width: 800px;height: 192px;border: 1px solid blue}
 .img800100 img{width: 800px;height: 100px;border: 1px solid blue}
 .img260135 img{width: 260px;height: 135px;border: 1px solid blue}
-.footer{width: 100%;height: 200px;background: yellowgreen;}
+.footer{height: 50px;background: yellowgreen; z-index: 0}
 .clear{clear: both;}
