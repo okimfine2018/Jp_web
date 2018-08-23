@@ -1,0 +1,27 @@
+body,img,ul,li{margin: 0px; padding: 0px;}
+img{border: 0}
+ul,li{list-style: none; font-size: 13px;}
+a:visited,a:active,a:link{text-decoration: none; color: #FF0099;}
+a:hover{color: orange;}
+body{background: #E4606D;}
+.top{height: 25px; background: blue;text-align: center;color: white;}
+.main{margin:0px auto;width: 1200px;background:white;text-align: center;}
+.main img{width: 1100px}
+.main_left_product_list ul li{border-bottom:1px dashed royalblue ;}
+.test{width:1100px;margin: 0 auto}
+
+.hot_shop img{width: 250px;height: 250px; margin: 0 auto;max-height: 214px;background: rgba(0, 0, 0,0.1); opacity: 1;}
+.img800192 img{height: 192px;}
+.img800100 img{width: 800px;height: 100px;}
+.img260135 img{width: 260px;height: 135px;}
+.footer{height: 50px;background: yellowgreen; z-index: 0}
+.clear{clear: both;}
+.gototop{height: 200px;width: 200px;position: fixed;top: 80%;left: 85%;text-align: center;}
+.gototop img{width: 50px;height: 50px;}
+.main_img img{width: 11.25%;height: 41px;}
+.main_left_product_list_li{font-size: 15px;font-weight: bold; color: white; background: red;border-radius:25px; font-weight: bold;}
+.img_div {position: relative;width: 22%;max-height: 163px; float:  left; left: 6%;margin: 0 12px}
+.mask {position: absolute;top: 0;left: 0;width: 100%; height: 100%;background: rgba(101, 101, 101, 0.6); color: #ffffff;opacity:0;}
+.mask h1,h4 {text-align:center;}
+.img_div a:hover .mask {opacity: 1;}
+.img_div img{width: 100%;max-height: 200px;}
