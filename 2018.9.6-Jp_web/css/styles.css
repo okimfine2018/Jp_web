@@ -3,8 +3,6 @@
   font-family: 'PingFangSC-Medium';
   src: url('../fonts/PingFangMedium.ttf');
 }
-
-
 ul li{list-style: none;}
 a:hover{text-decoration:underline;}
 a:link,a:visited{text-decoration:none; color: black;}
@@ -17,24 +15,20 @@ a:link,a:visited{text-decoration:none; color: black;}
 .lunbotu{width: 1440px;height: 720px;;}
 .yewu_waikuang{height: 550px;}
 .sp_waikuang{;}
-.our_yewu{;width: 180px;height: 38px;font-family: PingFangSC-Light;font-size: 32px;color: #000000;letter-spacing: 4px;text-align: center;line-height: 38px;margin:auto;margin-top:100px}
+.our_yewu{height: 38px;font-family: PingFangSC-Light;font-size: 32px;color: #000000;letter-spacing: 4px;text-align: center;line-height: 38px;margin:auto;margin-top:100px}
 .list_one{width: 240px;;float: left;margin-left: 6%;}
 .list_one img{width: 240px;height: 200px;}
 .list_one p{font-family: PingFangSC-Medium;font-size: 24px;color: #333333;letter-spacing: 0;text-align: center;}
 .list_one h3{font-family: PingFangSC-Regular;font-size: 16px;color: #333333;letter-spacing: 0;text-align: center;}
 .tupian6_background{position: relative;top: -200px;}
-
 .CompanyNews_waikuang{position: relative;top: -150px;}
-
 .tupianlunbo img{width:240px ;height: 200px;float: left;}
-
 .tupian6_background1{width: 240px;height: 200px;opacity: 0.4;background: #0E8BE5;float: left;}
 .tupian6_background2{width: 240px;height: 200px;opacity: 0.4;background: #0E8BE5;float: left;}
 .tupian6_background3{width: 240px;height: 200px;opacity: 0.4;background: #0E8BE5;float: left;}
 .tupian6_background4{width: 240px;height: 200px;opacity: 0.4;background: #0E8BE5;float: left;}
 .tupian6_background5{width: 240px;height: 200px;opacity: 0.4;background: #0E8BE5;float: left;}
 .tupian6_background6{width: 240px;height: 200px;opacity: 0.4;background: #0E8BE5;float: left;}
-
 .our_about{height: 700px;;top:-150px; position: relative;}
 .our_about_text{width: 860px;height: 562px;;background: #0E8BE5;position: relative;top: 11%;left: 5%;}
 .our_about_text_kuang{width: 540px;;position: relative;top: 20%;left: 6%;}
@@ -65,5 +59,3 @@ a:link,a:visited{text-decoration:none; color: black;}
 .lunbotu img{height: 720px;width:1440px}
 .jiantou{width:1440px;; position: relative;top: -400px;z-index: 0}
 .jiantou img{width:80px ;height:80px ;}
-
-
