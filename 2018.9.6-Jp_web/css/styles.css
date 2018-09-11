@@ -2,9 +2,8 @@
 ul li{list-style: none;}
 a:hover{text-decoration:underline;}
 a:link,a:visited{text-decoration:none; color: black;}
-.main_top_img img{width: 176px;height: 60px;float: left;}
-
-.top_img_list li {; width: 80px;font-size: 16px;color: #333333;letter-spacing: 0;text-align: center;line-height: 24px;float:left;margin-left:15px;font-family: PingFangSC-Medium;}
+.main_top_img img{width: 176px;height: 60px;float: left;border: 0}
+.top_img_list li {; width: 80px;font-size: 16px;color: #333333;letter-spacing: 0;text-align: center;line-height: 24px;float:left;margin-left:10px;font-family: PingFangSC-Medium;}
 .jiantou_1{position: absolute;top: 50% }
 .jiantou_2{position: absolute;top: 50%;right: 0% }
 .our_yewu{height: 38px;font-family: PingFangSC-Light;font-size: 32px;color: #000000;letter-spacing: 4px;text-align: center;line-height: 38px;margin:auto;margin-top: 80px;margin-bottom: 80px}
