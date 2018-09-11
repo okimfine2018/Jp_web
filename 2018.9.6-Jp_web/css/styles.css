@@ -1,10 +1,10 @@
-.main_top{border: 1px solid red;height: 50px}
+.main_top{height: 50px}
 ul li{list-style: none;}
 a:hover{text-decoration:underline;}
 a:link,a:visited{text-decoration:none; color: black;}
 .main_top_img img{width: 176px;height: 60px;float: left;}
-.top_img_list ul {;float:right;}
-.top_img_list li {; width: 80px;font-size: 16px;color: #333333;letter-spacing: 0;text-align: center;line-height: 24px;float:left;margin-right:25px;font-family: PingFangSC-Medium;}
+
+.top_img_list li {; width: 80px;font-size: 16px;color: #333333;letter-spacing: 0;text-align: center;line-height: 24px;float:left;margin-left:15px;font-family: PingFangSC-Medium;}
 .jiantou_1{position: absolute;top: 50% }
 .jiantou_2{position: absolute;top: 50%;right: 0% }
 .our_yewu{height: 38px;font-family: PingFangSC-Light;font-size: 32px;color: #000000;letter-spacing: 4px;text-align: center;line-height: 38px;margin:auto;margin-top: 80px;margin-bottom: 80px}
@@ -13,9 +13,9 @@ a:link,a:visited{text-decoration:none; color: black;}
 .our_about_text_kuang{width: 540px;;position: relative;top: 20%;left: 2%;}
 .our_about_text_h3{font-family: PingFangSC-Light;font-size: 32px;color: #FFFFFF;letter-spacing: 4px;line-height: 40px;}
 .our_about_text_p{font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 0;line-height: 24px;}
-.more span{left: 15px;top:380px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border: 1px solid #FFFFFF;border-radius: 4px;}
+.more span{left: 15px;top:380px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border-radius: 4px;}
 .our_about_img img{height:373px ;width:530px;position: absolute;top: -450px;left: 130%}
-.more1 span{left: 15px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border: 1px solid #FFFFFF;border-radius: 4px;}
+.more1 span{left: 15px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border-radius: 4px;}
 .our_about_text1_h3{font-family: PingFangSC-Light;font-size: 32px;color: #FFFFFF;letter-spacing: 4px;line-height: 60px;}
 .our_about_text1_p{font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 0;line-height: 20px;}
 .our_shebei{height: 38px;font-family: PingFangSC-Light;font-size: 32px;color: #000000;letter-spacing: 4px;text-align: center;line-height: 38px;margin:auto;margin-top: 80px;margin-bottom: 80px}
@@ -27,7 +27,7 @@ a:link,a:visited{text-decoration:none; color: black;}
 .cleardiv{clear: both}
 .waikuang{padding-right:0px;padding-left:0px;}
 .liucheng_img_dan span{font-family: PingFangSC-Semibold;font-size: 24px;color: #fff;letter-spacing: 0.36px;}
-.liuc{border: 1px solid red;position: absolute;top:30%;padding-right:0px;padding-left:0px;left:0px;}
+.liuc{position: absolute;top:30%;padding-right:0px;padding-left:0px;left:0px;}
 .liucheng_img_dan_1{margin-left: 8%;max-width: 10%}
 .footer_waikuang{background: #323639;height: 300px;}
 .call_me_text_img img{height:253px ;width: 488px;float: right;margin-top: 30px;}
