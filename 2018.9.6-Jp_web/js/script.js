@@ -2,7 +2,7 @@ window.onload=function(){
 	var lunbotu_img=document.getElementById("lunbotu_img")
 	
 	
-	dsq()
+//	dsq()
 	dsq1()
 }
 

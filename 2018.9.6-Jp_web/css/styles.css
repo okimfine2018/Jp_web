@@ -12,7 +12,7 @@ a:link,a:visited{text-decoration:none; color: black;}
 .our_about_text_kuang{width: 540px;;position: relative;top: 20%;left: 2%;}
 .our_about_text_h3{font-family: PingFangSC-Light;font-size: 32px;color: #FFFFFF;letter-spacing: 4px;line-height: 40px;}
 .our_about_text_p{font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 0;line-height: 24px;}
-.more span{left: 15px;top:380px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border-radius: 4px;}
+.more span{left: 15px;top:380px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border-radius: 4px;border: 1px solid #fff}
 .our_about_img img{height:373px ;width:530px;position: absolute;top: -450px;left: 130%}
 .more1 span{left: 15px;position:absolute;font-family: PingFangSC-Regular;font-size: 16px;color: #FFFFFF;letter-spacing: 4px;text-align: center;line-height: 24px;border-radius: 4px;}
 .our_about_text1_h3{font-family: PingFangSC-Light;font-size: 32px;color: #FFFFFF;letter-spacing: 4px;line-height: 60px;}
@@ -42,7 +42,7 @@ a:link,a:visited{text-decoration:none; color: black;}
 .tupianlunbo{left: 0px; margin:0;position: relative;}
 .tupianlunbo_div{position: relative;}
 .tupian6_background{position: absolute;top:0%;}
-
+.row{margin-right: 0;margin-left: 0;}
 
 
 
