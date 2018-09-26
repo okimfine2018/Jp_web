@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>创玉印业有限公司</title>
+		<link rel="stylesheet" type="text/css" href="./bs/css/bootstrap.min.css">
+		<meta name="keywords" content="中国创玉印务有限公司，纸袋;手提袋;商务礼品袋;打包袋;牛皮纸袋;酒袋;酒盒;食品袋;" />
+		<meta name="description" content="中国创玉印务有限公司，主要经营纸袋;手提袋;商务礼品袋;打包袋;牛皮纸袋;酒袋;酒盒;食品袋;化妆品袋，emai:292950941@qq.com，如需购买纸袋;手提袋;商务礼品袋;打包袋;牛皮纸袋;酒袋;酒盒;食品袋;化妆品袋，请联系我们，一流的质量有竞争力的价格是您的不二选择!" />
+
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class=" col-sm-12">
+					<h1 class=" col-sm-5 col-sm-offset-5">联系我们</h1>
+					<h1 class="col-sm-5 col-sm-offset-5">お問合せ</h1>
+				</div>
+			</div>
+
+			<!--<form  action="./email.html" method="post">
+		<span id="">您的名字/名前：</span><input  id="u_name" name="u_name" type="text" /><span id="" style="color: red;">*</span></br>
+		<span id="">联系方式/連絡：</span><input  id="u_phone" name="u_phone" type="text" /><span id="" style="color: red;">*</span></br>
+		<span id="">您的邮箱/郵便ポスト：</span><input  onblur="reg_email()" id="u_email" name="u_email" type="text" /><span id="" style="color: red;">*</span></br>
+		<span id="">留言/伝言：</span><textarea onblur="upperCase()" id="u_works" name="u_works" rows="3" cols="20"></textarea><span id="" style="color: red;">*</span></br>
+		<input id="sub" type="submit" value="提交/提出する"  disabled="disabled"/>
+		<p id="J_span" style="color: red;"></p>
+		<p id="C_span" style="color: red;"></p>
+	</form>-->
+
+			<form class="form-horizontal" action="./email.html" method="post">
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">您的名字/名前：</label>
+					<div class="col-sm-10">
+						<input id="u_name" type="text" class="form-control" placeholder="您的名字/名前" name="u_name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">联系方式/連絡：</label>
+					<div class="col-sm-10">
+						<input id="u_phone" type="text" class="form-control" placeholder="联系方式/連絡" name="u_phone">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">您的邮箱/郵便ポスト：</label>
+					<div class="col-sm-10">
+						<input onblur="reg_email()" id="u_email" type="email" class="form-control" placeholder="您的邮箱/郵便ポスト" name="u_email">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">留言/伝言：</label>
+					<div class="col-sm-10">
+						<textarea onblur="upperCase()" id="u_works" class="form-control" rows="3" placeholder="请告诉我们您的诉求/ご訴求を教えてください" name="u_works"></textarea>
+					</div>
+				</div>
+				<h5><span id="" style="color: red;">*</span>红色*号为必填项</h5>
+				<h5><span id="" style="color: red;">*</span>赤*号は必須アイテム</h5>
+				<p id="J_span" style="color: red;"></p>
+				<p id="C_span" style="color: red;"></p>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button id="sub" type="submit" class="btn btn-default" disabled="disabled">提交/提出する</button>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</body>
+
+</html>
+
+<script type="text/javascript">
+	var u_name = document.getElementById('u_name')
+	var u_phone = document.getElementById('u_phone')
+	var u_email = document.getElementById('u_email')
+	var u_works = document.getElementById('u_works')
+	var C_span = document.getElementById('C_span')
+	var J_span = document.getElementById('J_span')
+	var sub = document.getElementById('sub')
+
+	//邮箱正则验证
+	function reg_email() {
+		u_email_value = u_email.value
+		var regex = /^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/g;
+
+		if(regex.test(u_email_value)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	function upperCase() {
+		if(u_name.value != '' && u_phone.value != '' && reg_email() && u_works.value != '') {
+			sub.removeAttribute('disabled')
+			C_span.innerText = ''
+			J_span.innerText = ''
+		} else {
+			C_span.innerText = '请认真填写每一项'
+			J_span.innerText = '各項目について真剣に記入してください。'
+
+		}
+	}
+</script>
